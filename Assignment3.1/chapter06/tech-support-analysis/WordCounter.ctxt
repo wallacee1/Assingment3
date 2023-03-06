@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WordCounter
+comment0.text=\n\ Keep\ a\ record\ of\ how\ many\ times\ each\ word\ was\n\ entered\ by\ users.\n\ \n\ @author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ \ \ \ 1.0\ (2016.02.29)\n
+comment1.params=
+comment1.target=WordCounter()
+comment1.text=\n\ Create\ a\ WordCounter\n
+comment2.params=
+comment2.target=void\ printUsageCount()
+comment3.params=input
+comment3.target=void\ addWords(java.util.HashSet)
+comment3.text=\n\ Update\ the\ usage\ count\ of\ all\ words\ in\ input.\n\ @param\ input\ A\ set\ of\ words\ entered\ by\ the\ user.\n
+numComments=4
