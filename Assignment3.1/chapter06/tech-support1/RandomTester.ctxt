@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=RandomTester
+comment0.text=\n\ Write\ a\ description\ of\ class\ RandomTester\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=RandomTester()
+comment2.params=
+comment2.target=void\ printOne()
+comment3.params=howMany
+comment3.target=void\ printMultiple(int)
+comment4.params=
+comment4.target=int\ throwDie()
+comment5.params=
+comment5.target=java.lang.String\ getResponse()
+comment6.params=max
+comment6.target=int\ randomRangedNum(int)
+comment7.params=min\ max
+comment7.target=int\ randomInRange(int,\ int)
+numComments=8

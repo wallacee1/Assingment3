@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BoxBall
+comment0.text=\n\ Creates\ a\ box\ with\ a\ ball\ bouncing\ inside.\n\n\ @author\ Eric\ Wallace\n\ @version\ 1.0\n
+comment1.params=xPos\ yPos\ ballDiameter\ groundPos\ leftWall\ rightWall\ drawingCanvas
+comment1.target=BoxBall(int,\ int,\ int,\ int,\ int,\ int,\ Canvas)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BoxBall.\n\ \n\ @param\ xPos\ \ \ \ \ \ \ \ \ \ the\ horizontal\ coordinate\ of\ the\ ball.\n\ @param\ yPos\ \ \ \ \ \ \ \ \ \ the\ vertical\ coordinate\ of\ the\ ball.\n\ @param\ ballDiameter\ \ the\ diameter\ (in\ pixels)\ of\ the\ ball.\n\ @param\ groundPos\ \ \ \ \ the\ position\ of\ the\ ground.\n\ @param\ leftWall\ \ \ \ \ \ the\ position\ of\ the\ left\ wall.\n\ @param\ rightWall\ \ \ \ \ the\ position\ of\ the\ right\ wall.\n\ @param\ drawingCanvas\ the\ canvas\ to\ draw\ the\ ball\ on.\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Draw\ the\ ball\ at\ its\ current\ position\ on\ the\ canvas.\n\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\n\ Erase\ the\ ball\ at\ its\ current\ position.\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\n\ Move\ the\ ball\ according\ to\ its\ position\ and\ speed\ then\ redraw.\n
+comment5.params=
+comment5.target=int\ getyPosition()
+comment6.params=
+comment6.target=int\ getxPosition()
+comment7.params=
+comment7.target=int\ getDiameter()
+comment8.params=numberOfBalls
+comment8.target=void\ boxBounce(int)
+comment8.text=\n\ Simulate\ bouncing\ balls\ in\ a\ box.\n\ @param\ numberOfBalls\ Number\ of\ bouncing\ balls\n
+numComments=9
