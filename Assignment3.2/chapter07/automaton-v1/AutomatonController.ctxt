@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AutomatonController
+comment0.text=\n\ Set\ up\ and\ control\ an\ elementary\ cellular\ automaton.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ \ 2016.02.29\n
+comment1.params=numberOfCells
+comment1.target=AutomatonController(int)
+comment1.text=\n\ Create\ an\ AutomatonController.\n\ @param\ numberOfCells\ The\ number\ of\ cells\ in\ the\ automaton.\n
+comment2.params=
+comment2.target=AutomatonController()
+comment2.text=\n\ Create\ an\ AutomatonController\ with\n\ a\ default\ number\ of\ cells.\n
+comment3.params=numSteps
+comment3.target=void\ run(int)
+comment3.text=\n\ Run\ the\ automaton\ for\ the\ given\ number\ of\ steps.\n\ @param\ numSteps\ The\ number\ of\ steps.\n
+comment4.params=
+comment4.target=void\ step()
+comment4.text=\n\ Run\ the\ automaton\ for\ a\ single\ step.\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\n\ Reset\ the\ automaton.\n
+numComments=6

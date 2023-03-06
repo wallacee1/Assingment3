@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Automaton
+comment0.text=\n\ Model\ a\ 1D\ elementary\ cellular\ automaton.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ \ 2016.02.29\ -\ version\ 4\n
+comment1.params=numberOfCells\ wolframCode
+comment1.target=Automaton(int,\ int)
+comment1.text=\n\ Create\ a\ 1D\ automaton\ consisting\ of\ the\ given\ number\ of\ cells.\n\ @param\ numberOfCells\ The\ number\ of\ cells\ in\ the\ automaton.\n
+comment2.params=wolframCode
+comment2.target=int[]\ computeStateTable(int)
+comment2.text=\n\ Turn\ wolfram\ code\ into\ a\ reverse\ binary\ number\n\ @param\ wolframCode\n\ @return\n
+comment3.params=
+comment3.target=void\ print()
+comment3.text=\n\ Print\ the\ current\ state\ of\ the\ automaton.\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\n\ Update\ the\ automaton\ to\ its\ next\ state.\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\n\ Reset\ the\ automaton.\n
+comment6.params=left\ center\ right
+comment6.target=int\ calculateNextState(int,\ int,\ int)
+comment6.text=\n\ Calculate\ the\ next\ state\ of\ the\ center\ cell\n\ given\ current\ left,\ center\ and\ right\ cell\n\ values.\n\ This\ implements\ Wolfram\ code\ 110.\n\ @see\ https\://en.wikipedia.org/wiki/Wolfram_code\n\ @param\ left\ The\ state\ of\ the\ cell\ to\ the\ left\ of\ center.\n\ @param\ center\ The\ state\ of\ the\ center\ cell.\n\ @param\ right\ The\ state\ of\ the\ cell\ to\ the\ right\ of\ center.\n\ @return\ The\ new\ value\ of\ center\ (0\ or\ 1).\n
+comment7.params=left\ center\ right
+comment7.target=int\ encodeTriplet(int,\ int,\ int)
+comment7.text=\n\ Encode\ the\ 1/0\ triplet\ (left,\ center,\ right)\ as\ an\n\ integer\ value\ in\ the\ range\ 0-7.\n\ @param\ left\ The\ state\ of\ the\ cell\ to\ the\ left\ of\ center\ (0\ or\ 1).\n\ @param\ center\ The\ state\ of\ the\ center\ cell\ (0\ or\ 1).\n\ @param\ right\ The\ state\ of\ the\ cell\ to\ the\ right\ of\ center\ (0\ or\ 1).\n\ @return\ (left,center,right)\ interpreted\ as\ a\ 3-bit\ value.\n
+numComments=8

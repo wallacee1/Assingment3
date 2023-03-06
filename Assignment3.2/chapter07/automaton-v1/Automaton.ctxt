@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Automaton
+comment0.text=\n\ Model\ a\ 1D\ elementary\ cellular\ automaton.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ \ 2016.02.29\ -\ version\ 1\n
+comment1.params=numberOfCells
+comment1.target=Automaton(int)
+comment1.text=\n\ Create\ a\ 1D\ automaton\ consisting\ of\ the\ given\ number\ of\ cells.\n\ @param\ numberOfCells\ The\ number\ of\ cells\ in\ the\ automaton.\n
+comment2.params=
+comment2.target=void\ print()
+comment2.text=\n\ Print\ the\ current\ state\ of\ the\ automaton.\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\n\ Update\ the\ automaton\ to\ its\ next\ state.\n
+comment4.params=
+comment4.target=void\ reset()
+comment4.text=\n\ Reset\ the\ automaton.\n
+numComments=5
