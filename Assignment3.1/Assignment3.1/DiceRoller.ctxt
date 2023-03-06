@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DiceRoller
+comment0.text=\n\ Write\ a\ description\ of\ class\ DiceRoller\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=dieType\ numDice\ targetNum
+comment2.target=boolean\ isValidInput(int,\ int,\ int)
+comment3.params=dieType\ random
+comment3.target=int\ rollOpenEndedDie(int,\ java.util.Random)
+numComments=4
